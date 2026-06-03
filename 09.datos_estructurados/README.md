@@ -27,6 +27,7 @@ Para poder acceder a un elementos de la lista trabajamos con los indices que  py
 - los indices negativos (comienzan de -1 y van de derecha a izquierda)
 Con estos indices podemos acceder al valor del elemento y tambien podremos modificarlos.
 Tenemos dos formas de acceder a los elementos:
+- acceder y modificar por indice (posicion)
 - por indice (posicion)
 -  por rango (slicing)
 ```python
@@ -36,7 +37,19 @@ frutas:list[str]=[🍌,🍎,🍓,🍒]
 print(frutas[2])
 # acceder al 2 elemento por su indice negativo
 print(frutas[-3])
+# modificar 
+frutas[3]="naranja"
 # acceder por rango
+´´´
+
+- acceder  y modificar por rango (slicing)
+´´´python
+vocales:str=['a','e','i','o','u']
+# acceder a eelementos por slicing
+# esta tecnica nos permite accede a mas de un elemento en una sola linea de codigo
+vocales[0:3]
+## reemplaza elemento por slicing
+vocales[0:3]=['A','E','I']
 
 ```
 ## Diccionarios
