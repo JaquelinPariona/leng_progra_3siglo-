@@ -6,3 +6,18 @@
 4. mostrar toda la lista nueva con las modificaciones
 """
 
+animales:list[str]=['rinoceronte','raton','burro','jirafa','caballo','mosca','araña','mariposa','hormiga','pulpo']
+
+print(f"los animales som:{animales}")
+
+animales[0]=['flamenco']
+
+animales[1]=['zorzal']
+
+animales[2]=['gaviota']
+
+animales[5]=['camaleon','iguana','serpiente','cobra','gecko']
+
+animales[7]=['gianfranco']
+
+print(f"lista modificada es: {animales}")
