@@ -7,3 +7,14 @@ for i in range(7):
     ingredientes.append(ingredientes)
 # Datos de salida
 print(ingredientes)
+# Crear un programa crea agrege al principio de la lista del grupo a de los paises participantes en el mundial.
+grupo_a:list[str]=[]
+grupo_a.insert(0,"rep. checa")
+# ["rep. checa"]
+grupo_a.insert(0."corea del sur")
+# ["corea del sur","rep. checa"]
+grupo_a.insert(0,"sudafrica")
+# ["sudafrica","corea del sur","rep. checa"]
+grupo_a.insert(0,"mexico")
+# ["mexico","sudafrica","corea del sur","rep. checa"]
+print(grupo_a)

@@ -80,6 +80,18 @@ vocales.pop()
 # En este caso pop elimina por defecto el ultimo elemento
 vocales.pop(3)
 # En este caso eliminara el elmento que se encuentre en la posicion 3
-```
+´´´
+
+´´´python
+# buscar
+
+amantes:list[str]=['chapo','cristian','emerson','victor']
+# Quiero ubicar si en mi lista de infieles existe victor 
+buscar:int=amantes.index("victor") # retorna un indice si existe 3
+amantes[buscar] # victor
+## Busqueda porpertenencia
+existe:bool="chapo" in amantes
+´´´
 ## Diccionarios
+
 
