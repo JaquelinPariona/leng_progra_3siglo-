@@ -1,3 +1,6 @@
+<!--markadownlint-disable MDO22 MDO12-->
+
+
 # Datos estructurados
 - Tenemos 3 tipos  de datos primarios (string, numericos, boleanos)
 - Tenemos 2 tipos de datos estructurados (lista, diccionarios)
