@@ -1,4 +1,4 @@
-<!--markadownlint-disable MDO22 MDO12-->
+<!-- markadownlint-disable -->
 
 
 # Datos estructurados
